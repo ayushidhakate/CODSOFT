@@ -1,0 +1,42 @@
+/* Introduction */
+.intro {
+     height: 90vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     div:nth-child(1) {
+       width: 50%;
+       color: beige;
+       h2 {
+         font-size: 30px;
+         text-transform: uppercase;
+         margin: 20px 0;
+       }
+       p {
+         font-size: 20px;
+         letter-spacing: 1px;
+         word-spacing: 3px;
+         margin-bottom: 30px;
+       }
+       a {
+        margin-right: 10px;
+         text-decoration: none;
+         font-size: 18px;
+         text-transform: uppercase;
+         color: beige;
+         border: #fe8040 2px solid;
+         font-weight: 600;
+         border-radius: 5px;
+         padding: 10px 36px;
+         transition: 200ms ease-in-out;
+       }
+       a:hover {
+         background-color: #fe8040;
+         color: #0f0f0f;
+       }
+     }
+     img {
+       width: 500px;
+       /* border-radius: 50%; */
+     }
+   }

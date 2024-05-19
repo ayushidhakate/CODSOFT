@@ -1,0 +1,47 @@
+/* Work Experience */
+.work {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-bottom: 100px;
+  h2 {
+    width: 100%;
+    color: beige;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  h2::after {
+    content: "";
+    background-color: #fe8040;
+    left: 150px;
+    bottom: -620px;
+    width: 150px;
+    height: 2px;
+  }
+  .work-card-holder {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    .work-card {
+      background-color: #303030;
+      margin: 10px;
+      padding: 10px 20px;
+      color: #bca79d;
+      border-left: 5px solid #fe8040;
+      h3 {
+        font-size: 20px;
+        border-bottom: 2px solid #b6866f;
+        margin: 10px 0;
+      }
+      span {
+        font-size: 17px;
+        padding: 10px 0;
+      }
+      p {
+        font-size: 17px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

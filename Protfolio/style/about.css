@@ -1,0 +1,58 @@
+/* AboutUs */
+.about {
+     display: flex;
+     justify-content: start;
+     margin-bottom: 100px;
+     h2 {
+       color: beige;
+       font-size: 30px;
+       letter-spacing: 2px;
+     }
+     h2::after {
+       content: "";
+       background-color: #fe8040;
+       position: absolute;
+       left: 150px;
+       bottom: -50px;
+       width: 100px;
+       height: 2px;
+     }
+     .my-profile {
+       width: 30% !important;
+       flex-direction: row;
+       img {
+         width: 300px;
+         border-radius: 200px 200px;
+         box-shadow: 10px 0px 0px 5px #fe8040, 20px 0px 0px 5px #303030;
+         border-left: 2px solid #fe8040;
+       }
+     }
+     .skills {
+       width: 50%;
+       margin: auto;
+       h5{
+         color: beige;
+         font-size: 22px;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         margin: 10px 0px;
+       }
+       .progressBar {
+         width: 100%;
+         background-color: #303030;
+         border-radius: 10px;
+         margin-bottom: 20px;
+         .rating {
+           background-image: linear-gradient(to right, #fe8040, #fe8040, #B6866F);
+           padding: 0 10px;
+           border-radius: 10px;
+           font-size: 14px;
+           font-weight: 500;
+           cursor: pointer;
+         }
+         .rating:hover{
+           background-image: linear-gradient(#fe8040, #fe8040);
+         }
+       }
+     }
+   }
