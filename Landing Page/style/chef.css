@@ -1,0 +1,38 @@
+.chef{
+     background-image: linear-gradient(#00000088,#00000088),url('/assests/masalaimg.webp');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     .row div{
+          display: flex;
+          justify-content: center;
+          /* align-items: center; */
+          flex-direction: column;
+          color: antiquewhite;
+     }
+     h3{
+          font-size: 40px;
+          font-weight: 700;
+     }
+     p{
+          font-size: 20px;
+          letter-spacing: 1px;
+     }
+     span{
+          font-size: 18px;
+          i{
+               font-size: 20px;
+               padding-right: 5px;
+               color: yellowgreen;
+               letter-spacing: 1px;
+          }
+     }
+     img{
+          border: 10px solid orangered;
+          background-color: orangered;
+          border-radius: 50%;
+          width: 400px;
+          margin-left: 150px
+     }
+}

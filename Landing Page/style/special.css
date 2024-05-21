@@ -1,0 +1,54 @@
+.special {
+  background-image: url('/assests/wave.svg');
+  background-repeat: no-repeat;
+  h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 18px;
+  }
+  .dishCard-holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    .card-holder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 20px;
+      /* background-color: #1c1c1c; */
+      img {
+        overflow: hidden;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        box-shadow: 5px 0px 5px gray;
+        transition: 0.5s ease-in;
+      }
+      i {
+        color: rgb(184, 184, 51);
+      }
+      p {
+        text-align: center;
+      }
+      span {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      button{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 18px;
+        border: none;
+        background-color: #fe8040;
+        color: aliceblue;
+        border-radius: 10px;
+      }
+    }
+    .card-holder:hover img{
+      transform: scale(1.1);
+    }
+  }
+}

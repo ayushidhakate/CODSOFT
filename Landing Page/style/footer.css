@@ -1,0 +1,24 @@
+footer {
+  color: gray;
+  span {
+    color: #fe8040;
+    font-weight: 600;
+    font-size: 30px !important;
+  }
+  p {
+    font-size: 18px;
+    text-align: left;
+  }
+  h4 {
+    font-weight: 600;
+    color: #1c1c1c;
+  }
+  li {
+    list-style-type: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  li:hover {
+    color: #fe8040;
+  }
+}
